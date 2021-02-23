@@ -1,0 +1,50 @@
+#header img{
+    width :100px;
+}
+#header{
+    z-index: 4;
+   
+    
+}
+#main .carousel-inner img{
+    min-height: 45vh ;
+    max-height: 70vh;
+    object-fit: cover;
+    filter: grayscale(70%)
+}
+#footer{
+    background-color: rgb(71, 159, 236);
+}
+#footer a{
+    color: white;
+}
+.text-bold{
+    color: #8C5B96 !important;
+    
+}
+#carousel{
+    position: relative;
+}
+.carousel-item img{
+    height: 200px;
+}
+
+#carousel .overlay{
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    z-index: 3;
+}
+
+#horarios img{
+    max-width: 100%;
+
+}
+#horarios{
+    background-color: #343A40;
+    color: white;
+}
